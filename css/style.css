@@ -25,6 +25,7 @@
   font-family: "Merriweather", serif;
   font-weight: 900;
   font-style: normal;
+    font-size: 15pt;
 }
 
 .merriweather-light-italic {
@@ -100,14 +101,16 @@ a:visited {
     color:white;
 }
 a:hover {
-    color:yellow;
+    color:lightgreen;
 }
 
 nav {
     background-color: green;
     width: 100vw;
-    height: auto;
+    height: 7em;
     position: fixed;
+    text-align: center;
+    text-underline-position: auto;
 /*    border: 10px red solid; 
     box-sizing: border-box; */
 }
@@ -145,11 +148,19 @@ span.white {
 
  <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
 
+<p>Enter your email address and receive updates!</p>
+          <form method="post">
+              <input type="text">
+              <button>SUBMIT</button>
+              </form>
+
 } */
 
 .logo
 {
-    width:8%;
+    max-width:3em;
+    max-height: 3em;
+    display: inline-block;
 }
 
 .background-color-darkred
@@ -163,6 +174,13 @@ span.white {
     background-color:deeppink;
     line-height:4em;
 }
+
+
+.background-color-blue{
+    background-color: blue;
+    line-height: 4em;
+}
+
 
 p
 {
@@ -188,6 +206,29 @@ p
     width:90%;
     text-align: center;
 }
+
+
+.wtw-container{
+    margin:0 auto;
+    width:90%;
+    text-align: center;
+}
+
+
+.wtw-image{
+    width:20%;
+    display:inline-block;
+    padding-left:5%;
+    padding-right:5%;
+}
+
+footer{
+    background-color:green;
+    width:100vw;
+    height:7em;
+    text-align:center; 
+}
+
 
 @keyframes movement {
     0%, 100%
